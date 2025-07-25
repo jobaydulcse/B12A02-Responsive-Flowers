@@ -160,7 +160,7 @@
     color: white;
 }
 .bloom{
-    background-image: url(./images/deal-bloom.png);
+    background-image: url(../images/deal-bloom.png);
     background-repeat: no-repeat;
     height: 200px;
     width: 367px;
@@ -176,7 +176,7 @@
    
 }
 .ana{
-    background-image: url(./images/deal-ana.png);
+    background-image: url(../images/deal-ana.png);
     height: 197px;
     width: 367px;
     background-repeat: no-repeat;
@@ -189,7 +189,7 @@
     
 }
 .zabo{
-    background-image: url(./images/deal-zabo.png) ;
+    background-image: url(../images/deal-zabo.png) ;
     height: 423px;
     width: 753px;
     background-repeat: no-repeat;
@@ -208,7 +208,7 @@
     margin-bottom: 0px;
 }
 .join-us{
-    background-image: url(./images/news-letter-bg.png);
+    background-image: url(../images/news-letter-bg.png);
     max-width: 100%;
     height: 533px;
     margin-top: 120px;
