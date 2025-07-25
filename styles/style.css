@@ -261,7 +261,9 @@
     text-align: justify;
     
 }
-
+.logo{
+    margin-top: 32px;
+}
 
 @media screen and (max-width:576px){
     .home, .about{
