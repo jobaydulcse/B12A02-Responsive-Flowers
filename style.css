@@ -1,13 +1,33 @@
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* .inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} */
 
 
-.inter-font {
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  /* font-variation-settings:
+    "wdth" 100; */
+}
+
+
+.inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
+
 
 /* shared styles */
 .display-flex{
@@ -145,6 +165,9 @@
     align-items: center;
     margin-top: 120px;
     gap: 28px;
+    color: white;
+    
+
 }
 
 .latest-deal a{
@@ -163,6 +186,8 @@
     flex-direction: column;
     border-radius: 14px;
     margin-bottom: 25px;
+    filter: brightness(60%);
+
     
    
 }
@@ -176,6 +201,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    filter: brightness(60%);
     
 }
 .zabo{
@@ -188,7 +214,8 @@
     justify-content: center;
     flex-direction: column;
     border-radius: 14px;
-    
+    filter: brightness(60%);
+
 }
 .flower-title{
     color: white;
