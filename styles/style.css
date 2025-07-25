@@ -159,6 +159,8 @@
     font-weight: 600;
     color: white;
 }
+
+/* overlay style */
 .bloom{
     background-image: url(../images/deal-bloom.png);
     background-repeat: no-repeat;
@@ -170,9 +172,9 @@
     flex-direction: column;
     border-radius: 14px;
     margin-bottom: 25px;
-    filter: brightness(60%);
-
-    
+    color: white;
+    position: relative;
+    overflow: hidden; 
    
 }
 .ana{
@@ -185,7 +187,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    filter: brightness(60%);
+    color: white;
+    position: relative;
+    overflow: hidden; 
+   
     
 }
 .zabo{
@@ -198,15 +203,38 @@
     justify-content: center;
     flex-direction: column;
     border-radius: 14px;
-    filter: brightness(60%);
-
+    color: white;
+    position: relative;
+    overflow: hidden; 
 }
+
+.bloom::before, .ana::before, .zabo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+
+.bloom a, .ana a, .zabo a {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
 .flower-title{
     color: white;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin-bottom: 0px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
 }
+
 .join-us{
     background-image: url(../images/news-letter-bg.png);
     max-width: 100%;
@@ -218,6 +246,7 @@
     flex-direction: column;
    
 }
+
 .join{
     font-size: 3.12rem;
     font-weight: 700;
